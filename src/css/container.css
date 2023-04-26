@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #1b2838;
+  background-color: #121212;
 }
 
 .App {
@@ -21,47 +21,6 @@ body {
   height: 100vh;
   width: 100%;
   justify-content: center;
-}
-.container1 section {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2em;
-  color: #fff;
-}
-.container1 section .containerServer {
-  margin: 0 auto;
-  width: 92%;
-  height: 95%;
-  color: #fff;
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-.container1 section .containerServer .infoServer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-}
-.container1 section .containerServer .infoServer .informacion {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  padding: 12px;
-  border-radius: 10px;
-  width: 45%;
-  height: 60%;
-  justify-content: center;
-}
-.container1 section .containerServer .infoServer .informacion .servers {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 #footer {
