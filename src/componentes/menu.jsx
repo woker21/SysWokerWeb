@@ -1,4 +1,4 @@
-import Rutas from "./pages/rutas";
+import Rutas from "../pages/rutas";
 
 const Menu = () => {
     return ( 
