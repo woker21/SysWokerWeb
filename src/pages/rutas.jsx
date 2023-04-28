@@ -1,22 +1,20 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Inicio from './inicio';
-import Contacto from './contacto';
-import Servicios from './servicios';
+import { Routes,Route } from "react-router-dom";
+import Servicios from "./servers";
+import Home from "./inicio";
+import Portafolio from "./usuarios";
 
-const Rutas = () => {
-  return (
-    <>
-      <h1>Rutas</h1>
 
-      <Routes>
-        <Route path="/" element={<Inicio />} exact />
-        <Route path="/inicio" element={<Inicio />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="/servicios" element={<Servicios />} />
-      </Routes>
-    </>
-  );
-};
+
+function Rutas(){
+    return(
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/inicio' element={<Home/>}/>
+            <Route path='/servers' element={<Servicios />}/>
+            <Route path='/usuario' element={<Portafolio />}/>
+        </Routes>
+    );
+}
+
 
 export default Rutas;
