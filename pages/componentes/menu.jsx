@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+import styles from '../../styles/Menu.module.css'
+
+
 
 
 const Menu = () => {
@@ -7,15 +10,16 @@ const Menu = () => {
         <>
 
         <Head>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../css/menu.css" />
         </Head>
-            <div id="menu" className="flex items-center bg-gray-800 text-white list-none justify-around">
+        
+            <div id="menu" className={styles.menu}>
 
-                <div id="logo" className="">
-                    <img src="https://woker21.github.io/Portafolio-Woker/images/logo.png" alt="" />
+                <div id="logo" className={styles.logo}>
+                    <img className={styles.icon} src="https://woker21.github.io/Portafolio-Woker/images/logo.png" alt="" />
                 </div>
 
-                <nav id="navMenu" className="flex ">
+                <nav id="navMenu" className={styles.navMenu}>
                     <li>
                         <Link href="/">Inicio</Link>
                     </li>
@@ -33,9 +37,9 @@ const Menu = () => {
                     </li>
                 </nav>
 
-                <div>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <button >Redes Sociales</button>
+                <div className={styles.redes}>
+                    <a  href="https://www.instagram.com/" target="_blank">
+                        <button className={styles.btnRedes}>Redes Sociales</button>
                     </a>
                 </div>
             </div>
