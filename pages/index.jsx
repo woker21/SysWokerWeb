@@ -10,7 +10,7 @@ export default function Home() {
     </Head>
     <Menu/>
     {/*Fin de Head y Menu*/}
-
+    <h1>Inicio</h1>
 
 
     </>
