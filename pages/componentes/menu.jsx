@@ -16,7 +16,7 @@ const Menu = () => {
             <div id="menu" className={styles.menu}>
 
                 <div id="logo" className={styles.logo}>
-                    <img className={styles.icon} src="https://woker21.github.io/Portafolio-Woker/images/logo.png" alt="" />
+                    <img className={styles.icon} src="https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png" alt="" />
                 </div>
 
                 <nav id="navMenu" className={styles.navMenu}>

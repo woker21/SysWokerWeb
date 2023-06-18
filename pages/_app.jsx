@@ -1,6 +1,12 @@
 import '../styles/globals.css'
-import Menu from './componentes/menu';
+import Layout from './componentes/footer'
+
 
 export default function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+    return(
+      
+        <Component {...pageProps} />
+      
+    )
   }
+

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Menu from "./componentes/menu";
+import Footer from "./componentes/footer";
 
 const Contacto = () => {
     return ( 
@@ -12,6 +13,8 @@ const Contacto = () => {
 
         
         <h1>Contacto</h1>
+
+        <Footer/>
         </>
      );
 }

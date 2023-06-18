@@ -1,0 +1,25 @@
+.mainFooter {
+  background-color: #030303;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25vh;
+  color: #ffffff;
+  transform: translatey(50%);
+}
+.mainFooter .footer {
+  height: 20vh;
+  padding: 20px;
+}
+.mainFooter .cuadro {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30vh;
+  bottom: 0;
+}/*# sourceMappingURL=Footer.module.css.map */

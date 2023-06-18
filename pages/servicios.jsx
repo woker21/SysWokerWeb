@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Menu from "./componentes/menu";
+import Footer from "./componentes/footer";
 
 const Servicios = () => {
     return ( 
@@ -12,6 +13,8 @@ const Servicios = () => {
 
 
         <h1>Servicios</h1>
+
+        <Footer/>
         </>
      );
 }
