@@ -37,10 +37,21 @@ const Menu = () => {
                     </li>
                 </nav>
 
-                <div className={styles.redes}>
-                    <a  href="https://www.instagram.com/" target="_blank">
-                        <button className={styles.btnRedes}>Redes Sociales</button>
-                    </a>
+                <div className={styles.container_redes}>
+                    <button className={styles.btn_redes}>
+                        <span>Redes Sociales</span>
+                        <div class="container">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </div>
+                    </button>
                 </div>
             </div>
 
