@@ -26,6 +26,7 @@
 .containerSeccion .lotiPhone .phone1 {
   z-index: 3;
   position: absolute;
+  top: 7.5em;
 }
 .containerSeccion .lotiPhone .detras {
   position: absolute;
