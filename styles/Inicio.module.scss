@@ -1,26 +1,46 @@
-
-.containerSeccion{
+.containerSeccion {
     display: flex;
     height: 100vh;
-    .contenido{
+
+    .contenido {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         height: 80vh;
         width: 60%;
-        div{
-            color:ffffff;
+
+        div {
+            color: ffffff;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            h1{
+
+            h1 {
                 font-size: 50px;
             }
         }
     }
-    .lotiPhone{
+
+    .lotiPhone {
         width: 40%;
         height: 80vh;
+        .phone1{
+            z-index: 3;
+            position: absolute;
+        }
+        .detras {
+            position: absolute;
+            right: -16em;
+            top: 0;
+            height: 50em;
+            width: 45em;
+            border-radius: 80px;
+            transform: rotate(136deg);
+            border-left: 20vw solid transparent;
+            border-right: 20vw solid transparent;
+            background-color: #c32742;
+            z-index: 0;
+        }
     }
 }

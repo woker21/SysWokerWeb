@@ -22,4 +22,21 @@
 .containerSeccion .lotiPhone {
   width: 40%;
   height: 80vh;
+}
+.containerSeccion .lotiPhone .phone1 {
+  z-index: 3;
+  position: absolute;
+}
+.containerSeccion .lotiPhone .detras {
+  position: absolute;
+  right: -16em;
+  top: 0;
+  height: 50em;
+  width: 45em;
+  border-radius: 80px;
+  transform: rotate(136deg);
+  border-left: 20vw solid transparent;
+  border-right: 20vw solid transparent;
+  background-color: #c32742;
+  z-index: 0;
 }/*# sourceMappingURL=Inicio.module.css.map */

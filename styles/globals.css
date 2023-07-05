@@ -6,9 +6,9 @@ body {
   margin: 0;
   color: #fff;
   font-family: 'Syne', sans-serif;
- 
-background: #36121B;
-background: radial-gradient(at left center, #36121B, #070707);
+  overflow-x: hidden;
+  background: #36121B;
+  background: radial-gradient(at left center, #36121B, #070707);
 }
 
 a {
@@ -45,14 +45,19 @@ button {
 /* Estilos del scroll*/
 
 body::-webkit-scrollbar {
-  width: 13px;               /* width of the entire scrollbar */
+  width: 13px;
+  /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #0a0804;        /* color of the tracking area */
+  background: #0a0804;
+  /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #BE48D3;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+  background-color: #BE48D3;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
 }

@@ -35,7 +35,12 @@ export default function Home() {
 
     <div className={styles.lotiPhone}>
 
-    <Lottie animationData={AniPhone} loop={true} />
+    <Lottie className={styles.phone1} animationData={AniPhone} loop={true} />
+
+    <div className={styles.detras}>
+      
+    </div>
+
     </div>
       
     </section>
