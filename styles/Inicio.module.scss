@@ -1,0 +1,26 @@
+
+.containerSeccion{
+    display: flex;
+    height: 100vh;
+    .contenido{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        width: 60%;
+        div{
+            color:ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+    .lotiPhone{
+        width: 40%;
+        height: 80vh;
+    }
+}
