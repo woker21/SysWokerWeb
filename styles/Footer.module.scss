@@ -196,25 +196,25 @@
     height: 2.8em;
     width: 50%;
     padding-right: 3.3em;
-  }
+    .icon {
+        background: white;
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        right: 0.3em;
+        transition: all 0.3s;
+      }
+    }
+    .cssbuttons_io_button:hover .icon {
+      width: calc(100% - 0.6em);
+    }
+    
   
-  .cssbuttons_io_button .icon {
-    background: white;
-    margin-left: 1em;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.2em;
-    width: 2.2em;
-    border-radius: 0.7em;
-    right: 0.3em;
-    transition: all 0.3s;
-  }
-  
-  .cssbuttons_io_button:hover .icon {
-    width: calc(100% - 0.6em);
-  }
   
   .cssbuttons_io_button .icon svg {
     width: 1.1em;
