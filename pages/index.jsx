@@ -49,6 +49,12 @@ export default function Home() {
     </div>
       
     </section>
+
+    <div className="prueba">
+      <h1>segunda seccion</h1>
+      <br /><br /><br />
+      <h1>En Desarrollacion :"V</h1>
+    </div>
     <Footer/>
     </>
   )

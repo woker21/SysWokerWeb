@@ -1,7 +1,8 @@
 .containerSeccion {
     display: flex;
     height: 100vh;
-
+    background: #36121B;
+    background: radial-gradient(at left center, #36121B, #070707);
     .contenido {
         display: flex;
         justify-content: center;
@@ -76,6 +77,9 @@
             z-index: 3;
             position: absolute;
             top: 7.5em;
+            margin-left: 2em;
+            height: 35em;
+            width: 40em;
         }
         .detras {
             position: absolute;
@@ -95,12 +99,12 @@
             .detras1{
                 height: 55em;
                 width: 48rem;
-                background-color: blue;
+                background-color: #e23c4d;
                 z-index: 1;
                 position: absolute;
-                margin-bottom: 11em;
+                margin-bottom: 9em;
                 border-radius: 80px;
-                margin-right: 17em;
+                margin-right: 21em;
             }
         }
     }
