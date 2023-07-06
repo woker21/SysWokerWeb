@@ -87,4 +87,17 @@
   border-right: 20vw solid transparent;
   background-color: #c32742;
   z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.containerSeccion .lotiPhone .detras .detras1 {
+  height: 55em;
+  width: 48rem;
+  background-color: blue;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 11em;
+  border-radius: 80px;
+  margin-right: 17em;
 }/*# sourceMappingURL=Inicio.module.css.map */

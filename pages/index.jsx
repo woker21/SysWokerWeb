@@ -41,7 +41,9 @@ export default function Home() {
     <Lottie className={styles.phone1} animationData={AniPhone} loop={true} />
 
     <div className={styles.detras}>
-      
+      <div className={styles.detras1}>
+
+      </div>
     </div>
 
     </div>
