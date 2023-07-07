@@ -21,6 +21,7 @@ export default function Home() {
 
     <div className={styles.contenido}>
     <div>
+    
     <h1>Diseñamos tus ideas y <br/> tus Negocios</h1>
 
     <h3>un servicio totalmente <span>PERSONALIZADO</span>
@@ -34,6 +35,15 @@ export default function Home() {
                             </div>
                         </button>
     </div>
+
+
+    <div className={styles.adorno}>
+      <div>
+        
+      </div>
+
+    </div>
+
     </div>
 
     <div className={styles.lotiPhone}>

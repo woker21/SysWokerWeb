@@ -1,8 +1,9 @@
 .containerSeccion {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   background: #36121B;
   background: radial-gradient(at left center, #36121B, #070707);
+  z-index: 0;
 }
 .containerSeccion .contenido {
   display: flex;
@@ -68,6 +69,26 @@
 .containerSeccion .contenido div .cssbuttons_io_button:hover .icon {
   width: calc(100% - 0.6em);
 }
+.containerSeccion .contenido .adorno {
+  background-color: #331a7a;
+  height: 20em;
+  width: 20em;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -7em;
+  left: -5em;
+  transform: rotate(100deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerSeccion .contenido .adorno div {
+  background-color: #6237db;
+  height: 60%;
+  width: 67%;
+  border-radius: 30px;
+}
 .containerSeccion .lotiPhone {
   width: 40%;
   height: 80vh;
@@ -105,4 +126,9 @@
   margin-bottom: 9em;
   border-radius: 80px;
   margin-right: 21em;
+}
+
+.prueba {
+  z-index: 4;
+  position: relative;
 }/*# sourceMappingURL=Inicio.module.css.map */
