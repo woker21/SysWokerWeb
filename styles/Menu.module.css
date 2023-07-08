@@ -80,6 +80,8 @@
   line-height: 50px;
   align-items: center;
   justify-content: space-around;
+  position: absolute;
+  z-index: 5;
 }
 .menu .btn_redes div a {
   padding: 0 5px;
