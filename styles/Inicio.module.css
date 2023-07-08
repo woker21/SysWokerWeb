@@ -128,7 +128,29 @@
   margin-right: 21em;
 }
 
-.prueba {
+.quienesSomos {
   z-index: 4;
   position: relative;
+  background-color: #0b0b0b;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.quienesSomos .phone2 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 8em;
+  font-size: 40vh;
+}
+.quienesSomos .titulos {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  width: 50%;
+  height: 80vh;
+  margin-right: 5em;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=Inicio.module.css.map */
