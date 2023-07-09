@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import AniPhone from '../images/phone.json';
 import styles from '../styles/Inicio.module.css';
 import Phone2 from '../images/phone2.json';
+import Card from './componentes/card';
 
 
 
@@ -65,35 +66,41 @@ export default function Home() {
 
       <div className={styles.quienesSomos}>
 
-        <Lottie className={styles.phone2} animationData={Phone2} loop={true} />
+        <div className={styles.phone}>
+          <Lottie className={styles.phone2} animationData={Phone2} loop={true} />
+        </div>
 
-        <div className={styles.titulos}>
+        <div className={styles.somos}>
 
-          <div className=''>
+          <div className={styles.titulo1}>
             <h1>Quienes Somos</h1>
-            <h4>En SysWoker te ofrecemos:</h4>
+            <h4>En Syswoker te ofrecemos:</h4>
           </div>
-          <div className="soluciones">
-            <div className="soluciones">
-              <h2>Soluciones que aportaran al crecimiento de tu Negocio</h2>
+
+          <div className={styles.opciones}>
+
+            <div className={styles.solucion}>
+            <div className={styles.soluciones}><h2>Soluciones que aportaran <br /> al crecimiento de <br /> tu Negocio</h2></div>
+            <div className={styles.soluciones}><h2>Atencion personalizada <br /> para todos nuestros <br /> Clientes</h2></div>
             </div>
-            <div className="soluciones">
-              <h2>Atencion personalizada para todos nuestros Clientes</h2>
+
+            <div className={styles.solucion}>
+            <div className={styles.soluciones}> <h2>Consejos en el area de <br /> Marketing Digital</h2></div>
+            <div className={styles.soluciones}><h2>Opciones para potenciar tu <br /> Negocio en el area Digital</h2></div>
             </div>
-            <div className="soluciones">
-              <h2>Consejos en el area de Marketin Digital</h2>
-            </div>
-            <div className="soluciones">
-              <h2>Opiniones para potenciar tu negocio en el area Digital</h2>
-            </div>
+
           </div>
+
+
 
         </div>
 
-
       </div>
 
+      <div className="servicios">
 
+        
+      </div>
 
 
 

@@ -4,6 +4,7 @@
     background: #36121B;
     background: radial-gradient(at left center, #36121B, #070707);
     z-index: 0;
+
     .contenido {
         display: flex;
         justify-content: center;
@@ -21,9 +22,11 @@
             h1 {
                 font-size: 50px;
             }
-            a{
+
+            a {
                 width: 20em;
-                button{
+
+                button {
                     background-color: red;
                     color: #fff;
                     width: 15em;
@@ -32,6 +35,7 @@
                     border: none;
                 }
             }
+
             .cssbuttons_io_button {
                 background: linear-gradient(90deg, #591DFF 15.63%, #FF4062 100.06%);
                 color: white;
@@ -51,6 +55,7 @@
                 height: 2.8em;
                 width: 40%;
                 padding-right: 3.3em;
+
                 .icon {
                     background: #000;
                     margin-left: 1em;
@@ -63,13 +68,15 @@
                     border-radius: 0.7em;
                     right: 0.3em;
                     transition: all 0.3s;
-                  }
-              }
-              .cssbuttons_io_button:hover .icon {
+                }
+            }
+
+            .cssbuttons_io_button:hover .icon {
                 width: calc(100% - 0.6em);
-              }
+            }
         }
-        .adorno{
+
+        .adorno {
             background-color: #331a7a;
             height: 20em;
             width: 20em;
@@ -78,23 +85,24 @@
             bottom: -7em;
             left: -5em;
             transform: rotate(100deg);
-            z-index: 1;
             display: flex;
             justify-content: center;
             align-items: center;
-            div{
-                background-color: #6237db;            
+
+            div {
+                background-color: #6237db;
                 height: 60%;
                 width: 67%;
-               border-radius: 30px;
+                border-radius: 30px;
             }
         }
     }
- 
+
     .lotiPhone {
         width: 40%;
         height: 80vh;
-        .phone1{
+
+        .phone1 {
             z-index: 3;
             position: absolute;
             top: 7.5em;
@@ -102,12 +110,11 @@
             height: 35em;
             width: 40em;
         }
+
         .detras {
-            position: absolute;
-            right: -20em;
-            top: 0;
+            margin-top: -1m;
             height: 100%;
-            width: 45em;
+            width: 50em;
             border-radius: 80px;
             transform: rotate(136deg);
             border-left: 20vw solid transparent;
@@ -117,7 +124,8 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            .detras1{
+
+            .detras1 {
                 height: 55em;
                 width: 48rem;
                 background-color: #e23c4d;
@@ -131,7 +139,7 @@
     }
 }
 
-.quienesSomos{
+.quienesSomos {
     z-index: 4;
     position: relative;
     background-color: #0b0b0b;
@@ -139,22 +147,57 @@
     height: 100vh;
     align-items: center;
     justify-content: space-around;
-    .phone2{
+
+    .phone {
+        width: 40%;
+        height: 80vh;
+
+        .phone2 {
+            z-index: 3;
+            position: relative;
+            margin-left: -8em;
+            height: 35em;
+            width: 50em;
+        }
+    }
+
+    .somos {
+        width: 100%;
+        height: 60%;
         display: flex;
         justify-content: center;
-        width: 60%;
-        height: 8em;
-        font-size: 40vh;
-
-    }
-    .titulos{
-        display: flex;
         flex-direction: column;
-        border: 2px solid;
-        width: 50%;
-        height: 80vh;
-        margin-right: 5em;
-        justify-content: space-around;
         align-items: center;
+        .titulo1{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 60px;
+                margin-bottom: -20px;
+            }
+            h4{
+                font-size: 20px;
+                color: #ffffff;
+            }
+        }
+
+        .opciones {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .solucion{
+                display: flex;
+                height: 30vh;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 90%;
+                .soluciones{
+                    margin: auto;
+                    padding: 2em;
+                }
+            }
+        }
     }
 }

@@ -78,7 +78,6 @@
   bottom: -7em;
   left: -5em;
   transform: rotate(100deg);
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,11 +101,9 @@
   width: 40em;
 }
 .containerSeccion .lotiPhone .detras {
-  position: absolute;
-  right: -20em;
-  top: 0;
+  margin-top: -1m;
   height: 100%;
-  width: 45em;
+  width: 50em;
   border-radius: 80px;
   transform: rotate(136deg);
   border-left: 20vw solid transparent;
@@ -137,20 +134,52 @@
   align-items: center;
   justify-content: space-around;
 }
-.quienesSomos .phone2 {
+.quienesSomos .phone {
+  width: 40%;
+  height: 80vh;
+}
+.quienesSomos .phone .phone2 {
+  z-index: 3;
+  position: relative;
+  margin-left: -8em;
+  height: 35em;
+  width: 50em;
+}
+.quienesSomos .somos {
+  width: 100%;
+  height: 60%;
   display: flex;
   justify-content: center;
-  width: 60%;
-  height: 8em;
-  font-size: 40vh;
+  flex-direction: column;
+  align-items: center;
 }
-.quienesSomos .titulos {
+.quienesSomos .somos .titulo1 {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  border: 2px solid;
-  width: 50%;
-  height: 80vh;
-  margin-right: 5em;
-  justify-content: space-around;
+}
+.quienesSomos .somos .titulo1 h1 {
+  font-size: 60px;
+  margin-bottom: -20px;
+}
+.quienesSomos .somos .titulo1 h4 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.quienesSomos .somos .opciones {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+.quienesSomos .somos .opciones .solucion {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.quienesSomos .somos .opciones .solucion .soluciones {
+  margin: auto;
+  padding: 2em;
 }/*# sourceMappingURL=Inicio.module.css.map */
