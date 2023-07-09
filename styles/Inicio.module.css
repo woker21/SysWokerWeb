@@ -71,16 +71,17 @@
 }
 .containerSeccion .contenido .adorno {
   background-color: #331a7a;
-  height: 20em;
-  width: 20em;
+  height: 13em;
+  width: 14em;
   border-radius: 30px;
   position: absolute;
-  bottom: -7em;
+  bottom: -9em;
   left: -5em;
-  transform: rotate(100deg);
+  transform: rotate(132deg);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 .containerSeccion .contenido .adorno div {
   background-color: #6237db;
@@ -128,7 +129,8 @@
 .quienesSomos {
   z-index: 4;
   position: relative;
-  background-color: #0b0b0b;
+  background: #36131C;
+  background: radial-gradient(at right center, #36131C, #070707);
   display: flex;
   height: 100vh;
   align-items: center;
