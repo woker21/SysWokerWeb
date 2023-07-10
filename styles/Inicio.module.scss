@@ -112,9 +112,9 @@
         }
 
         .detras {
-            margin-top: -1m;
-            height: 100%;
-            width: 50em;
+            margin-top: -2em;
+            height: 114%;
+            width: 53em;
             border-radius: 80px;
             transform: rotate(136deg);
             border-left: 20vw solid transparent;
@@ -124,6 +124,8 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            position: relative;
+            right: -10em;
 
             .detras1 {
                 height: 55em;
