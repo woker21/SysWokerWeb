@@ -1,8 +1,8 @@
 .containerSeccion {
     display: flex;
     height: 90vh;
-    background: #36121B;
-    background: radial-gradient(at left center, #652233, #070707);
+background: #38111C;
+background: radial-gradient(at left center, #38111C, #080707);
     z-index: 0;
 
     .contenido {
@@ -14,7 +14,7 @@
         width: 60%;
 
         div {
-            color: ffffff;
+            color: #ffffff;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -89,6 +89,7 @@
             justify-content: center;
             align-items: center;
             z-index: 5;
+
             div {
                 background-color: #6237db;
                 height: 60%;
@@ -142,8 +143,8 @@
 }
 
 .quienesSomos {
-    background: #36131C;
-    background: radial-gradient(at right center, #652233, #070707);
+background: #38111C;
+background: radial-gradient(at center bottom, #38111C, #080707);
     display: flex;
     height: 100vh;
     align-items: center;
@@ -206,4 +207,11 @@
             }
         }
     }
+}
+
+.servicios{
+    display: flex;
+    background: #38111C;
+    background: radial-gradient(at center top, #38111C, #080707);
+    justify-content: center;
 }

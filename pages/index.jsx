@@ -6,6 +6,7 @@ import AniPhone from '../images/phone.json';
 import styles from '../styles/Inicio.module.css';
 import Phone2 from '../images/phone2.json';
 import Card from './componentes/card';
+import Card2 from './componentes/Card2';
 
 
 
@@ -97,9 +98,12 @@ export default function Home() {
 
       </div>
 
-      <div className="servicios">
-
-        
+      <div className={styles.servicios}>
+          
+        <Card2/>
+        <Card2/>
+        <Card2/>
+        <Card2/>
       </div>
 
 

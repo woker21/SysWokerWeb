@@ -1,0 +1,97 @@
+/*===== CARD =====*/
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.card {
+    width: 20em;
+    height: 23em;
+    background-color: #272D40;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    color: #E9EAEC;
+    
+}
+
+.card__img {
+    position: absolute;
+    width: 15em;
+    filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, .4));
+}
+
+.card__data {
+    transform: translateY(13.2rem);
+    text-align: center;
+}
+
+.card__title {
+    font-size: 25px;
+    color: #F2A20C;
+    margin-bottom: .5rem;
+}
+
+.card__preci {
+    display: inline-block;
+    font-size: var(--h2-font-size);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.card__description {
+    font-size: var(--small-font-size);
+    text-align: initial;
+    margin-bottom: 1.25rem;
+    opacity: 0;
+}
+
+.card__button {
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: #F2A20C;
+    color: #E9EAEC;
+    border-radius: .5rem;
+    font-weight: 600;
+    transition: .2s;
+    opacity: 0;
+}
+
+.card__button:hover {
+    box-shadow: 0 18px 40px -12px rgba(242, 162, 12, .35);
+}
+
+.card__img,
+.card__data,
+.card__title,
+.card__preci,
+.card__description {
+    transition: .5s;
+}
+
+/* Hover card effect */
+.card:hover .card__img {
+    transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+
+.card:hover .card__data {
+    transform: translateY(4.8rem);
+}
+
+.card:hover .card__title {
+    transform: translateX(-2.3rem);
+    margin-bottom: 0;
+}
+
+.card:hover .card__preci {
+    transform: translateX(-6.8rem);
+}
+
+.card:hover .card__description,
+.card:hover .card__button {
+    transition-delay: .2s;
+    opacity: 1;
+}

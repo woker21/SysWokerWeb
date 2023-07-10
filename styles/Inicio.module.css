@@ -1,8 +1,8 @@
 .containerSeccion {
   display: flex;
   height: 90vh;
-  background: #36121B;
-  background: radial-gradient(at left center, #652233, #070707);
+  background: #38111C;
+  background: radial-gradient(at left center, #38111C, #080707);
   z-index: 0;
 }
 .containerSeccion .contenido {
@@ -14,7 +14,7 @@
   width: 60%;
 }
 .containerSeccion .contenido div {
-  color: ffffff;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,8 +129,8 @@
 }
 
 .quienesSomos {
-  background: #36131C;
-  background: radial-gradient(at right center, #652233, #070707);
+  background: #38111C;
+  background: radial-gradient(at center bottom, #38111C, #080707);
   display: flex;
   height: 100vh;
   align-items: center;
@@ -184,4 +184,11 @@
 .quienesSomos .somos .opciones .solucion .soluciones {
   margin: auto;
   padding: 2em;
+}
+
+.servicios {
+  display: flex;
+  background: #38111C;
+  background: radial-gradient(at center top, #38111C, #080707);
+  justify-content: center;
 }/*# sourceMappingURL=Inicio.module.css.map */
