@@ -2,7 +2,7 @@
   display: flex;
   height: 90vh;
   background: #36121B;
-  background: radial-gradient(at left center, #36121B, #070707);
+  background: radial-gradient(at left center, #652233, #070707);
   z-index: 0;
 }
 .containerSeccion .contenido {
@@ -119,7 +119,7 @@
 }
 .containerSeccion .lotiPhone .detras .detras1 {
   height: 55em;
-  width: 48rem;
+  width: 62rem;
   background-color: #e23c4d;
   z-index: 1;
   position: absolute;
@@ -129,10 +129,8 @@
 }
 
 .quienesSomos {
-  z-index: 4;
-  position: relative;
   background: #36131C;
-  background: radial-gradient(at right center, #36131C, #070707);
+  background: radial-gradient(at right center, #652233, #070707);
   display: flex;
   height: 100vh;
   align-items: center;
