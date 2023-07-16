@@ -81,13 +81,13 @@ export default function Home() {
           <div className={styles.opciones}>
 
             <div className={styles.solucion}>
-            <div className={styles.soluciones}><h2>Soluciones que aportaran <br /> al crecimiento de <br /> tu Negocio</h2></div>
-            <div className={styles.soluciones}><h2>Atencion personalizada <br /> para todos nuestros <br /> Clientes</h2></div>
+              <div className={styles.soluciones}><h2>Soluciones que aportaran <br /> al crecimiento de <br /> tu Negocio</h2></div>
+              <div className={styles.soluciones}><h2>Atencion personalizada <br /> para todos nuestros <br /> Clientes</h2></div>
             </div>
 
             <div className={styles.solucion}>
-            <div className={styles.soluciones}> <h2>Consejos en el area de <br /> Marketing Digital</h2></div>
-            <div className={styles.soluciones}><h2>Opciones para potenciar tu <br /> Negocio en el area Digital</h2></div>
+              <div className={styles.soluciones}> <h2>Consejos en el area de <br /> Marketing Digital</h2></div>
+              <div className={styles.soluciones}><h2>Opciones para potenciar tu <br /> Negocio en el area Digital</h2></div>
             </div>
 
           </div>
@@ -99,11 +99,58 @@ export default function Home() {
       </div>
 
       <div className={styles.servicios}>
-          
-        <Card2/>
-        <Card2/>
-        <Card2/>
-        <Card2/>
+
+        <div className={styles.titleServicios}>
+          <h1>Servicios</h1>
+          <h2>En SysWoker te ofrecemos : </h2>
+        </div>
+
+        <div className={styles.carrusel}>
+
+          <div className={styles.containerCarrusel}>
+            <Card2
+              image='https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png'
+              title='Tiendas Online'
+              parrafo='Muestra todo tu Catalogo de Productos a tus Clientes'
+              info='Plataforma de Ventas Online inspirada y diseñada en tu Tienda'
+            />
+
+            <Card2
+              image='https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png'
+              title='Gestión de inventario'
+              parrafo='Administra tu Inventario o Archivos'
+              info='Administra tu Inventario o tus tareas a traves de nuestra Plataforma'
+            />
+
+            <Card2
+              image='https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png'
+              title='Punto de Venta'
+              parrafo='Necesitas sincronizar Cajas o tiendas?'
+              info='Sistema de Punto de venta sincronizado con el inventario de tu Tienda Online'
+            />
+
+            <Card2
+              image='https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png'
+              title='Optimizacion Web'
+              parrafo='Quieres tener el Primer Puesto de Buesqueda?'
+              info='Mejoramos la visibilidad de tu sitio web en los motores de busqueda para atraer mas Clientes'
+            />
+
+            <Card2
+              image='https://res.cloudinary.com/dxaanvzjo/image/upload/v1687044613/logo2_gwdibu.png'
+              title='Seguridad Web'
+              parrafo='Quieres que tu informacion este Segura?'
+              info='Mejoramos la Seguridad de ti y los Usuarios de tu tienda o Web'
+            />
+
+          </div>
+
+          <button className={`${styles.carBtn} ${styles.carNext}`}>Next</button>
+
+          <button className={`${styles.carBtn} ${styles.carPrev}`}>Prev</button>
+        </div>
+
+
       </div>
 
 

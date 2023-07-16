@@ -9,18 +9,18 @@
 
 .card {
     width: 20em;
-    height: 23em;
-    background-color: #272D40;
+    height: 25em;
+    background-color: #151515;
     border-radius: 1rem;
-    padding: 4rem 2rem 0;
-    color: #E9EAEC;
+    padding: 1.5rem 2rem 0;
+    color: #cdcdcd;
     
 }
 
 .card__img {
-    position: absolute;
     width: 15em;
     filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, .4));
+    margin-bottom: -14em;
 }
 
 .card__data {
@@ -29,30 +29,32 @@
 }
 
 .card__title {
-    font-size: 25px;
-    color: #F2A20C;
+    font-size: 30px;
+    color: #ce1334;
     margin-bottom: .5rem;
 }
 
 .card__preci {
     display: inline-block;
-    font-size: var(--h2-font-size);
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 1.25rem;
 }
 
 .card__description {
-    font-size: var(--small-font-size);
+    font-size: 16px;
     text-align: initial;
     margin-bottom: 1.25rem;
     opacity: 0;
+    color: #fff;
+    font-weight: 600;
 }
 
 .card__button {
     display: block;
     width: max-content;
     padding: 1.125rem 2rem;
-    background-color: #F2A20C;
+    background: linear-gradient(90deg, #591DFF 15.63%, #FF4062 100.06%);
     color: #E9EAEC;
     border-radius: .5rem;
     font-weight: 600;
@@ -61,7 +63,7 @@
 }
 
 .card__button:hover {
-    box-shadow: 0 18px 40px -12px rgba(242, 162, 12, .35);
+    box-shadow: 0 18px 40px -12px #a30c40;
 }
 
 .card__img,

@@ -1,8 +1,8 @@
 .containerSeccion {
     display: flex;
     height: 90vh;
-background: #38111C;
-background: radial-gradient(at left center, #38111C, #080707);
+    background: #38111C;
+    background: radial-gradient(at left center, #38111C, #080707);
     z-index: 0;
 
     .contenido {
@@ -143,8 +143,8 @@ background: radial-gradient(at left center, #38111C, #080707);
 }
 
 .quienesSomos {
-background: #38111C;
-background: radial-gradient(at center bottom, #38111C, #080707);
+    background: #38111C;
+    background: radial-gradient(at center bottom, #38111C, #080707);
     display: flex;
     height: 100vh;
     align-items: center;
@@ -209,9 +209,87 @@ background: radial-gradient(at center bottom, #38111C, #080707);
     }
 }
 
-.servicios{
+.servicios {
     display: flex;
-    background: #38111C;
-    background: radial-gradient(at center top, #38111C, #080707);
+    background: #110b0c;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    .titleServicios{
+        text-align: center;
+        display: flex;
+        gap: 1em;
+        margin-bottom: -6em;
+        flex-direction: column;
+        h1{
+            font-size: 50px;
+            margin-top: 1em;
+        }
+        h2{
+            font-size: 22px;
+        }
+    }
+
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        .containerCarrusel {
+            display: flex;
+            overflow-x: scroll;
+            flex-wrap: nowrap;
+            width: 70%;
+            position: relative;
+            
+        }
+
+        .carBtn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .carNext {
+            color: #fff;
+            left: 0;
+        }
+
+        .carPrev {
+            color: #fff;
+            right: 0;
+        }
+
+        .carrusel:hover .carrusel-btn {
+            display: block;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .carrusel:hover {
+            animation: slide 10s infinite;
+        }
+
+        .carrusel:hover .carrusel-btn {
+            display: none;
+        }
+    }
+
+
 }

@@ -188,7 +188,69 @@
 
 .servicios {
   display: flex;
-  background: #38111C;
-  background: radial-gradient(at center top, #38111C, #080707);
+  background: #110b0c;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios .titleServicios {
+  text-align: center;
+  display: flex;
+  gap: 1em;
+  margin-bottom: -6em;
+  flex-direction: column;
+}
+.servicios .titleServicios h1 {
+  font-size: 50px;
+  margin-top: 1em;
+}
+.servicios .titleServicios h2 {
+  font-size: 22px;
+}
+.servicios .carrusel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicios .carrusel .containerCarrusel {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  width: 70%;
+  position: relative;
+}
+.servicios .carrusel .carBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.servicios .carrusel .carNext {
+  color: #fff;
+  left: 0;
+}
+.servicios .carrusel .carPrev {
+  color: #fff;
+  right: 0;
+}
+.servicios .carrusel .carrusel:hover .carrusel-btn {
+  display: block;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.servicios .carrusel .carrusel:hover {
+  animation: slide 10s infinite;
+}
+.servicios .carrusel .carrusel:hover .carrusel-btn {
+  display: none;
 }/*# sourceMappingURL=Inicio.module.css.map */
